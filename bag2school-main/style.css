@@ -1,0 +1,145 @@
+body{
+    background-color: #FFFBE0;
+}
+.title{
+    text-align: center;
+    color:#006370;
+    font-size: 140px;
+    font-family: 'Modak',Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.inline a{
+    text-decoration: none;
+    padding-right:20px;
+    padding-left:20px;
+    color:#006470;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+}
+
+.inline a:hover{
+    opacity: 0.5;
+}
+
+.line{
+    background-color:#006370;
+    font-size: 2px;
+    color:#006370;
+    margin-top: 15px;
+    height:30px;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    padding:15px;
+    background-color: #CF726B;
+    font-size:35px;
+    margin-left:550px;
+    margin-right: 550px;
+    border-radius: 50px;
+    color:#FFFBE0;
+    font-family: 'Raleway';
+    font-weight: 700;
+    position: relative;
+}
+
+.logos{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.line2{
+    background-color:#006370;
+    font-size: 4px;
+    color:#006370;
+    margin-top: 15px;
+    height:50px;
+}
+
+.NP{
+    width:200px;
+    margin-left:40px;
+}
+
+.complogo{
+    width:50px;
+    margin-right:60px;
+
+}
+
+.campus{
+    
+    left:10%;
+    position: absolute;
+    top:5%;
+    z-index: -1;
+}
+
+.intro{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 50px;
+    color:#793B36;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#anim{
+    position:absolute;
+    top:18%;
+    left:53%;
+}
+
+/*Questions page*/
+form{
+    align-content: center;
+    padding: 30px;
+    display:flex;
+    display:block;
+    margin: auto;
+    width:40%;
+}
+#username{
+    height: 20px;
+}
+#question{
+    width:100%;
+    height:150px;
+    margin:auto;
+}
+label{
+    font-family: 'Raleway', sans-serif;
+
+}
+h2{
+    text-align: center;
+    color:#006370;
+    font-size: 100px;
+    font-family: 'Modak';
+    font-weight: 450;
+    position: relative;
+}
+.subbutton{
+    background-color: #8B433D;
+    color:#F7F4DC;
+    padding:10px 30px; 
+    margin:4px 2px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    float: right;
+}
+.subbutton:hover {
+    background-color: #513030;
+}
